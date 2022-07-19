@@ -8,7 +8,7 @@
 /* global css style  */
 
 .container{
-    margin: 50px 139px 70px 140px;
+    margin: 50px 100px 70px 101px;
 }
 
 /* greatest-show styles  */
@@ -85,9 +85,46 @@
 .match-menu{
     width: 100%;
     display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
     background-color: #161616;
 }
 
-.match-menu-item{
+.side-bar .match-menu span{
+    color: #161616;
+    width: 100px;
     background-color: #fff;
+    margin: 5px;
+}
+
+.match-live{
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.059);
+}
+
+.match-live-image{
+    width: 100%;
+}
+
+.match-live-button button{
+    margin: 20px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+.match-live-title{
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.match-live-info{
+    display: flex;
+    margin-left: 20px;
+}
+
+.match-live-info div{
+    margin: 10px;
 }
