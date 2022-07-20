@@ -240,6 +240,25 @@ hr{
     color: #fff;
 }
 
+.social-icons li a .fa-facebook-square{
+    color: #4267B2;
+}
+
+.social-icons li a .fa-twitter-square{
+    color: #1DA1F2;
+}
+
+.social-icons li a .fa-youtube-square{
+    color: #FF0000;
+}
+
+.social-icons li a .fa-behance-square{
+    color: #053EFF;
+}
+
+.social-icons li a .fa-reddit-square{
+    color: #ff4500;
+}
 
 /* responsive for mobile device  */
 
