@@ -176,6 +176,10 @@ html{
     background-color: #fff;
 }
 
+.match-live-button button:hover{
+    cursor: pointer;
+}
+
 
 .match-live-title{
     margin-left: 2rem;
