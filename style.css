@@ -109,6 +109,8 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: .01rem .01rem 20px rgba(0, 0, 0, 0.094);
+    border: 0.1rem solid rgba(0, 0, 0, 0.108);
 }
 
 .match-menu-item span{
@@ -177,6 +179,7 @@ hr{
 
 .footer-menu{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 3rem 0rem 4rem;
     color: #B9B9B9;
@@ -212,6 +215,10 @@ hr{
 
     /* match blogs responsive  */
 
+    .match-menu{
+        background-color: #fff;
+    }
+
     .match-blogs{
         grid-template-columns: repeat(1, 1fr);
         grid-template-columns: repeat(1, 1fr);
@@ -220,5 +227,93 @@ hr{
 
     .match-live-image img{
         width: 100%;
+    }
+
+    /* footer responsive  */
+
+    footer{
+        height: 50rem;
+    }
+
+    .footer-menu{
+        flex-direction: column;
+        align-content: space-around;
+        align-items: center;
+        row-gap: 10px;
+    }
+}
+
+/* responsive for tablet device  */
+
+@media only screen and (min-width: 689px) and (max-width: 1200px) {
+    html{
+        font-size: 43.75%;
+    }
+    .container{
+        margin: 5rem 5rem 7rem 5rem;
+    }
+    .greatest-show{
+        width: 100%;
+    }
+    .greatest-show div{
+        width: 100%;
+    }
+
+    .greatest-show-info{
+        padding: 3rem;
+    }
+
+    .greatest-show-img{
+        padding: 1.7rem 2rem 0rem;
+    }
+
+    /* match blogs responsive  */
+
+    
+    .match-blogs{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-gap: 3rem;
+    }
+
+    .match-live:nth-child(7), .match-live:nth-child(8), .match-live:last-child{
+        display: none;
+    }
+
+
+    .side-bar{
+        grid-column: 1 / -1;
+    }
+
+    .match-menu{
+        background-color: #fff;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .side-bar .match-menu .match-menu-item{
+        width: 27rem;
+        padding: 1.5rem 2.4rem;
+    }
+
+    .match-live-image img{
+        width: 100%;
+    }
+
+    /* footer responsive  */
+
+    footer{
+        height: 50rem;
+    }
+
+    .footer-menu{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 3rem;
+        text-align: center;
+    }
+
+    .footer5{
+        grid-column: span 1 / 3;
     }
 }
