@@ -298,6 +298,12 @@ hr{
         padding: 4rem;
     }
 
+    .show-description{
+        font-size: 2rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+
     .greatest-show-img{
         padding: 2rem 7rem 0rem;
     }
@@ -356,6 +362,13 @@ hr{
     .greatest-show-info{
         padding: 3rem;
     }
+
+    .show-description{
+        font-size: 2rem;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+
 
     .greatest-show-img{
         padding: 1.7rem 2rem 0rem;

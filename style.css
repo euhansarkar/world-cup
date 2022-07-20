@@ -181,6 +181,7 @@ html{
     margin-left: 2rem;
     font-size: 1.8rem;
     font-weight: 600;
+    padding-right: 1.2rem;
 }
 
 .match-live-info{
@@ -190,6 +191,7 @@ html{
 
 .match-live-info div{
     margin: 1rem;
+    font-size: 1.6rem;
 }
 
 /* footer menu styles  */
@@ -292,8 +294,15 @@ hr{
         padding: 4rem;
     }
 
+    .show-description{
+        font-size: 2rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+
     .greatest-show-img img{
         vertical-align: bottom;
+        margin-left: 1.6rem;
     }
 
     /* match blogs responsive  */
@@ -312,6 +321,23 @@ hr{
         width: 100%;
     }
 
+    .match-live-button button{
+        font-size: 1.9rem;
+    }
+
+    .match-live-title{
+        font-size: 2.5rem;
+    }
+
+    .match-live-info div{
+        font-size: 1.8rem;
+    }
+
+    /* sepcial button  */
+    .see-all-button{
+        display: none;
+    }
+
     /* footer responsive  */
 
     footer{
@@ -325,13 +351,11 @@ hr{
         row-gap: 10px;
     }
 
-    /* sepcial button  */
-    .see-all-button{
-        display: none;
-    }
+
 }
 
 /* responsive for tablet device  */
+
 
 @media only screen and (min-width: 689px) and (max-width: 1200px) {
     html{
@@ -349,6 +373,12 @@ hr{
 
     .greatest-show-info{
         padding: 3rem;
+    }
+
+    .show-description{
+        font-size: 2rem;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
     }
 
     .greatest-show-img{
