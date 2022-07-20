@@ -113,11 +113,26 @@ html{
     border: 0.1rem solid rgba(0, 0, 0, 0.108);
 }
 
+.side-bar .match-menu .match-menu-item:last-child{
+    color: #fff;
+    width: 16rem;
+    background-color: #DD0000;
+    margin: 1.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: .01rem .01rem 20px rgba(0, 0, 0, 0.094);
+    border: 0.1rem solid rgba(0, 0, 0, 0.108);
+}
+
 .match-menu-item span{
     text-align: center;
     font-size: 1.5rem;
     line-height: 3rem;
 }
+
 
 .match-live{
     border-radius: 1rem;
