@@ -113,7 +113,7 @@ html{
     border: 0.1rem solid rgba(0, 0, 0, 0.108);
 }
 
-.side-bar .match-menu .match-menu-item:last-child{
+.side-bar .match-menu .match-menu-item:first-child{
     color: #fff;
     width: 16rem;
     background-color: #DD0000;
@@ -127,7 +127,7 @@ html{
     border: 0.1rem solid rgba(0, 0, 0, 0.108);
 }
 
-.side-bar .match-menu .match-menu-item:last-child a{
+.side-bar .match-menu .match-menu-item:first-child a{
     color: #fff;
 }
 
