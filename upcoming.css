@@ -56,6 +56,23 @@ html{
     border-radius: .5rem;
     margin-top: 3rem;
     border: .2rem solid #DD0000;
+    cursor: pointer;
+    animation-name: walk;
+    animation-fill-mode: both;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/* animation keyframs  */
+
+@keyframes walk {
+    from{
+        transform: translateX(-1rem);
+    }
+    to{
+        transform: translateX(1rem);
+    }
 }
 
 .show-button a{
@@ -72,8 +89,8 @@ html{
 
 .greatest-show-img img{
     width: 100%;
+    vertical-align: bottom;
 }
-
 
 /* match-section styles  */
 
